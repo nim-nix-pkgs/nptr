@@ -11,6 +11,7 @@
   inputs.src-nptr-v0_1_8.ref   = "refs/tags/v0.1.8";
   inputs.src-nptr-v0_1_8.owner = "henryas";
   inputs.src-nptr-v0_1_8.repo  = "nptr";
+  inputs.src-nptr-v0_1_8.dir   = "";
   inputs.src-nptr-v0_1_8.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
