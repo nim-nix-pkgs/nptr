@@ -11,7 +11,6 @@
   inputs.src-nptr-main.ref   = "refs/heads/main";
   inputs.src-nptr-main.owner = "henryas";
   inputs.src-nptr-main.repo  = "nptr";
-  inputs.src-nptr-main.dir   = "";
   inputs.src-nptr-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
